@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Travora",
+    "slug": "travora",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true,
+      "usesAppleSignIn": true,
+      "bundleIdentifier": "com.travora.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0B1028",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "com.travora.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 180,
+          "resizeMode": "contain",
+          "backgroundColor": "#0B1028"
+        }
+      ],
+      "expo-apple-authentication"
+    ],
+    "backgroundColor": "#0B1028",
+    "scheme": "travora"
+  }
+}
